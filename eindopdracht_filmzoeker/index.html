@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmzoeker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="./scriptmovie.js"></script>
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <nav>
+    <header>
+        <h1>Welkom op de filmzoeker</h1>
+        <div class="searchBar">
+          <input type= "text" id="userInput" placeholder="Zoek voor een film(hoofdleter gevoelig)">
+          </div>
+    </header>
+ 
+      <main>
+          <ul id="movie-list">
+
+          </ul>
+      </main>
+      <aside>
+          <div class="radioBtn">
+            <input type= "radio" id= "newMovies" name="moviesFilter" value="newMovies" checked>
+            <label for="newMovies">Nieuwste Films</label>
+          </div>
+          <div class="radioBtn">
+            <input type= "radio" id= "avengersMovies" name="moviesFilter" value="Avengers" checked>
+            <label for="avengersMovies">Titels met Avengers</label>
+          </div>
+          <div class="radioBtn">
+            <input type= "radio" id= "xmenMovies" name="moviesFilter" value="X-Men" checked>
+            <label for="xmenMovies">Titels met X-men</label>
+          </div>
+          <div class="radioBtn">
+            <input type= "radio" id= "princessMovies" name="moviesFilter" value="Princess" checked>
+            <label for="princessMovies">Titels met Princess</label>
+          </div>
+          <div class="radioBtn">
+            <input type= "radio" id= "batmanMovies" name="moviesFilter" value="Batman" checked>
+            <label for="batmanMovies">Titels met Batman</label>
+          </div>
+        </aside>
+
+            
+ 
+  <footer>
+      <p>Copyright Jochum Sloot</p>
+      <p>2020</p>
+  </footer>
+</nav>
+  
+</body>
+</html>
